@@ -1,0 +1,17 @@
+model:
+  image_model_name: "microsoft/DialoGPT-medium"
+  text_model_name: "j-hartmann/emotion-english-distilroberta-base"
+  device: "auto"
+  confidence_threshold: 0.5
+  max_faces: 10
+
+ui:
+  title: "Modern Emotion Recognition System"
+  theme: "light"
+  debug_mode: false
+  port: 8501
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: null
